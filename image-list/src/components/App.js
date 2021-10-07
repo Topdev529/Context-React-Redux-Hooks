@@ -5,7 +5,7 @@ import ImageList from './ImageList';
 
 class App extends React.Component {
 
-	state = { images: [] }
+	tate = { images: [] }
 
 	onSearchSubmit = async (entry) => {
 		const response = await axios.get(`https://pixabay.com/api/?key=12973143-e1ea73fe98fc5af5156bb3056&q=${entry}&image_type=photo`)
